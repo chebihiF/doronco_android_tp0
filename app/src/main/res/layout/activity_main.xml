@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name : Chebihi"
         android:gravity="center"
-        android:textSize="30sp"
-        />
+        android:text="Name : Chebihi"
+        android:textSize="30sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your name : "
-        />
+        android:hint="Enter your name : " />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,14 +26,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
             android:layout_marginStart="50dp"
-            android:text="Valid"/>
+            android:layout_marginEnd="50dp"
+            android:text="Valid" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Valid"/>
+            android:text="Valid" />
 
     </LinearLayout>
 
@@ -45,20 +42,23 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:layout_marginTop="40dp"
             android:id="@+id/t1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
             android:text="Start Game" />
 
         <Button
-            android:layout_below="@id/t1"
-            android:layout_marginTop="20dp"
+            android:id="@+id/btn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/t1"
             android:layout_alignStart="@id/t1"
+            android:layout_marginTop="20dp"
             android:text="OK" />
+           <!-- android:onClick="showMessage" -->
+
 
     </RelativeLayout>
 
